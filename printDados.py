@@ -45,16 +45,18 @@ class PrintDados:
 
     def intefase3 (self,tempo,result,memoria,tamanhoMemoria,clientes,filmess,classifisao):
         print("\n" * os.get_terminal_size().lines)
-        print('Tempo: %i             Acertos:%i       Erros: %i             Algorimo: %s'%(tempo,result.acertos,result.erros,result.nomeAlgoritimo))
+        print('Tempo: %i             Acertos:%i       Erros: %i    Erros(LimiteBanda): %i         Algorimo: %s'%(tempo,result.acertos,result.erros,result.erroBandas,result.nomeAlgoritimo))
         print('Memoria -----------------------------------------------------------------------------------------------------')
         posicao=""
         filme=""
         blocos=""
+        parmetro=""
+        argumento=""
         for id,bloco in enumerate(memoria):
             if(id<10):
                 posicao+=str(" "+str(id)+"|")
             else:
-                posicao+=str(""+str(id)+"|")
+                posicao+=str(str(id)+"|")
             if(bloco[0]<10):
                 filme+=str(" "+str(bloco[0])+"|")
             else:
@@ -63,15 +65,30 @@ class PrintDados:
                 blocos+=str(" "+str(bloco[1])+"|")
             else:
                 blocos+=str(""+str(bloco[1])+"|")
+            if(bloco[2]<10):
+                parmetro+=str(" "+str(bloco[2])+"|")
+            else:
+                parmetro+=str(""+str(bloco[2])+"|")
+            if(bloco[3]<10):
+                argumento+=str(" "+str(bloco[3])+"|")
+            else:
+                argumento+=str(""+str(bloco[3])+"|")
         memoriaEmBRanco=len(memoria)
         while(memoriaEmBRanco<tamanhoMemoria):
-            posicao+=(" "+str(memoriaEmBRanco)+"|")
+            if(memoriaEmBRanco<10):
+                posicao+=(" "+str(memoriaEmBRanco)+"|")
+            else:
+                posicao+=(""+str(memoriaEmBRanco)+"|")
             filme+=('  |')
             blocos+=('  |')
+            parmetro+=('  |')
+            argumento+=('  |')
             memoriaEmBRanco+=1
         print("|",posicao, 'Posicao da memoria')
         print("|",filme,'Filme')
         print("|",blocos, 'Bloco')
+        print("|",parmetro,'Parametro')
+        print("|",argumento, 'Argumento Generico')
 
         print('Subtituição -----------------------------------------------------------------------------------------------------')
         posicaoMemoria=''

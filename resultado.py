@@ -3,6 +3,7 @@ class Resultado:
         self.nomeAlgoritimo=algoritimo
         self.acertos=0
         self.erros=0
+        self.erroBandas=0
         self.arquivoLeitura=arquivo
         self.totalClientes=0
         self.totalPacotesEntregues=0
@@ -13,6 +14,8 @@ class Resultado:
         self.acertos=self.acertos+1
     def erro(self):
         self.erros=self.erros+1
+    def erroBanda(self):
+        self.erroBandas=self.erroBandas+1
     def novoCliente(self):
         self.totalClientes=self.totalClientes+1
         self.totalClientesAtivos=self.totalClientesAtivos+1

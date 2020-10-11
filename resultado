@@ -1,0 +1,280 @@
+Algoritimo:algorimo=AlgortimoCC()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 101
+Arquivo Erros: 101
+Total Clientes: 0
+Total Pacotes Reais: 0
+
+Algoritimo:algorimo=AlgortimoCC()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 0
+Arquivo Erros: 101
+Total Clientes: 0
+Total Pacotes Reais: 0
+
+Algoritimo:algorimo=AlgortimoCC()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 0
+Arquivo Erros: 101
+Total Clientes: 0
+Total Pacotes Reais: 0
+
+Algoritimo:algorimo=AlgortimoAleatorio
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 0
+Arquivo Erros: 101
+Total Clientes: 0
+Total Pacotes Reais: 0
+
+Algoritimo:algorimo=AlgortimoAleatorio
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 0
+Arquivo Erros: 101
+Total Clientes: 1
+Total Pacotes Reais: 101
+
+Algoritimo:algorimo=AlgortimoAleatorio
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 0
+Arquivo Erros: 100
+Total Clientes: 1
+Total Pacotes Reais: 100
+
+Algoritimo:algorimo=AlgortimoAleatorio
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 0
+Arquivo Erros: 100
+Total Clientes: 1
+Total Pacotes Reais: 100
+
+Algoritimo:algorimo=AlgortimoAleatorio
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 100
+Arquivo Erros: 100
+Total Clientes: 2
+Total Pacotes Reais: 200
+
+Algoritimo:algorimo=AlgortimoCARTE(5)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 100
+Arquivo Erros: 100
+Total Clientes: 2
+Total Pacotes Reais: 200
+
+Algoritimo:algorimo=AlgortimoCARTE(5)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 1100
+Arquivo Erros: 100
+Total Clientes: 12
+Total Pacotes Reais: 1200
+
+Algoritimo:algorimo=AlgortimoCARTE(5)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 1100
+Arquivo Erros: 100
+Total Clientes: 12
+Total Pacotes Reais: 1200
+
+Algoritimo:algorimo=AlgortimoCARTE(5)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 800
+Arquivo Erros: 400
+Total Clientes: 12
+Total Pacotes Reais: 1200
+
+Algoritimo:algorimo=AlgortimoAleatorio
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 800
+Arquivo Erros: 400
+Total Clientes: 12
+Total Pacotes Reais: 1200
+
+Algoritimo:algorimo=AlgortimoAleatorio
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 800
+Arquivo Erros: 400
+Total Clientes: 12
+Total Pacotes Reais: 1200
+
+Algoritimo:algorimo=AlgortimoAleatorio
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 0
+Arquivo Erros: 200
+Total Clientes: 2
+Total Pacotes Reais: 200
+
+Algoritimo:algorimo=AlgortimoCC()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 0
+Arquivo Erros: 200
+Total Clientes: 2
+Total Pacotes Reais: 200
+
+Algoritimo:algorimo=AlgortimoCC()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 0
+Arquivo Erros: 200
+Total Clientes: 2
+Total Pacotes Reais: 200
+
+Algoritimo:algorimo=AlgortimoCC()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 100
+Arquivo Erros: 200
+Total Clientes: 3
+Total Pacotes Reais: 300
+
+Algoritimo:algorimo=AlgortimoAleatorio()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 86
+Arquivo Erros: 214
+Total Clientes: 3
+Total Pacotes Reais: 300
+
+Algoritimo:algorimo=AlgortimoAleatorio()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 86
+Arquivo Erros: 214
+Total Clientes: 3
+Total Pacotes Reais: 300
+
+Algoritimo:algorimo=AlgortimoCARTE(5)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 100
+Arquivo Erros: 200
+Total Clientes: 3
+Total Pacotes Reais: 300
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 984
+Total Clientes: 10
+Total Pacotes Reais: 1000
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCC()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 91
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 9
+Arquivo Erros: 101
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 9
+Arquivo Erros: 101
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgortimoCARTE(3)
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 87
+Total Clientes: 10
+Total Pacotes Reais: 110
+
+Algoritimo:algorimo=AlgoritmoLFU()
+Arquivo Leitura: 10.txt
+Arquivo Acertos: 7057
+Arquivo Erros: 62633
+Total Clientes: 690
+Total Pacotes Reais: 69690
+

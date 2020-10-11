@@ -1,7 +1,8 @@
 from manipulacaoArquivo import ManipulacaoArquivo
-from algoritmoAleatorio import AlgortimoAleatorio
-from algoritmoCARTE import AlgortimoCARTE
-from algoritmoCC import AlgortimoCC
+# from algoritmoAleatorio import AlgortimoAleatorio
+# from algoritmoCARTE import AlgortimoCARTE
+# from algoritmoCC import AlgoritmoCC
+from algoritmoLFU import AlgoritmoLFU
 from resultado import Resultado
 from cliente import Cliente
 from filme import Filme
@@ -12,22 +13,32 @@ from planilhaODS import PlaniliaOBS
 
 #arquivo contem 4 colunas. (idCleintes,  numero do filme q vai assistir,  tempo de chagada , parte do  video q assistir)
 if __name__ == "__main__":
-    arq='1t.txt'
+    # Variael do arquivo
+    arq='10.txt'
     #alg="algorimo=AlgortimoAleatorio()"
-    alg="algorimo=AlgortimoCARTE(3)"
+    #alg="algorimo=AlgortimoCARTE(3)"
     #alg="algorimo=AlgortimoCC()"
+    alg="algorimo=AlgoritmoLFU()"
     leitura=ManipulacaoArquivo('./baseLeitura/'+str(arq))
     #algorimo=AlgortimoAleatorio()
     print(alg)
     exec(alg)
-    memoriaTotal=10
+    #Limite de memoria  em contabilizados em bloco
+    memoriaTotal=40
+    #Lista q tem infomaçoes da memoria proxy de video
     memoria=[]
-    larguraBanda=100
-    filaEspera=[]
+    #Tamanho que banda q proxy pode usar  durante aquele intervala de 1 tempo 
+    larguraBanda=3
+    #filaEspera=[]
+    #tempo medido tempo proxy,não funciona na escala tempo real
     instanteTempo=0
+    #Isso para inciar com cliente na memoria de leitura
     novoCliente=leitura.novoClienteLido()
+    #Contem todos cliente ativos ou em espera. Ele estao em ordem q quem chega primeiro , primeiro receber.
     listaClientes=[]
+    #Matriz que  tem infomaçoes do filme e possição da memoria se encontra bloco.  Funciona como Organição de memoria Indexada
     listaFilmes={}
+    #Tem os contadores  dentro, é chamada para adcionar erro ou  acertos. 
     result=Resultado(arq,alg)
     #pri=PlaniliaOBS()
     #pri.iniciarPlanilha()
@@ -41,34 +52,48 @@ if __name__ == "__main__":
         #pri.AdicionarDadosPlanilha(memoria,listaClientes,instanteTempo,result.acertos,result.erros,listaFilmes,memoriaTotal)
         printDados.intefase3(instanteTempo,result,memoria,memoriaTotal,listaClientes,listaFilmes,algorimo.classificacao)
         #Substituição da parte dos cliente atendendo
+        contadorLarguraBanda=0;
         for cliente in (listaClientes[:]):
+            #Remover o cliente q terminou de assistir video da lista
             if(cliente.idBloco==cliente.tamanhoBloco):
                 result.terminouCliente()
                 listaClientes.remove(cliente)
             else:
                 result.entreguePacote()
+                memoria=algorimo.organizarMemororia(memoria)
                 if(cliente.idFilme in listaFilmes):
                     if((cliente.idBloco+1) in listaFilmes[cliente.idFilme].blocos):
                         cliente.trocaBloco(listaFilmes)
-                        memoria[listaFilmes[cliente.idFilme].blocoMemoria[cliente.idBloco]]=([cliente.idFilme,cliente.idBloco,listaFilmes[cliente.idFilme].blocos[cliente.idBloco]])
+                        memoria[listaFilmes[cliente.idFilme].blocoMemoria[cliente.idBloco]]=([cliente.idFilme,cliente.idBloco,listaFilmes[cliente.idFilme].blocos[cliente.idBloco],algorimo.variavelGenericaMemoriaAcerto(memoria[listaFilmes[cliente.idFilme].blocoMemoria[cliente.idBloco]][3])])
                         result.acerto()
                     else:
                         result.erro()
-                        if(memoriaTotal>len(memoria)):
-                            cliente.trocaBloco(listaFilmes)
-                            listaFilmes[cliente.idFilme].blocoMemoria[cliente.idBloco]=len(memoria)
-                            memoria.append([cliente.idFilme,cliente.idBloco,listaFilmes[cliente.idFilme].blocos[cliente.idBloco]])
+                        if(contadorLarguraBanda<larguraBanda):
+                            if(memoriaTotal>len(memoria)):
+                                cliente.trocaBloco(listaFilmes)
+                                listaFilmes[cliente.idFilme].blocoMemoria[cliente.idBloco]=len(memoria)
+                                memoria.append([cliente.idFilme,cliente.idBloco,listaFilmes[cliente.idFilme].blocos[cliente.idBloco],algorimo.variavelGenericaMemoriaCriacao()])
+                            else:
+                                algorimo.substituicaoBlocos(listaFilmes,cliente,memoria,listaClientes)
                         else:
-                            algorimo.substituicaoBlocos(listaFilmes,cliente,memoria,listaClientes)
+                            result.erroBanda()
                 else:
                     result.erro()
-                    listaFilmes[cliente.idFilme]=Filme(cliente.idFilme)
-                    if(memoriaTotal>len(memoria)):
-                        cliente.trocaBloco(listaFilmes)
-                        listaFilmes[cliente.idFilme].blocoMemoria[cliente.idBloco]=len(memoria)
-                        memoria.append([cliente.idFilme,cliente.idBloco,listaFilmes[cliente.idFilme].blocos[cliente.idBloco]])
+                    if(contadorLarguraBanda<larguraBanda):
+                        contadorLarguraBanda+=1
+                        listaFilmes[cliente.idFilme]=Filme(cliente.idFilme)
+                        if(memoriaTotal>len(memoria)):
+                            #Função dentro do cliente para habilitar o novo pacote de video
+                            cliente.trocaBloco(listaFilmes)
+                            #Fucão quarda possocição do memoria dentro bloco .  Reduzir tempo de busca em toda memoria
+                            listaFilmes[cliente.idFilme].blocoMemoria[cliente.idBloco]=len(memoria)
+                            #adiciona na memoria o bloco de video
+                            memoria.append([cliente.idFilme,cliente.idBloco,listaFilmes[cliente.idFilme].blocos[cliente.idBloco],1])
+                        else:
+                            #Função dentro algoritmo de substituicao escolhido
+                            algorimo.substituicaoBlocos(listaFilmes,cliente,memoria,listaClientes)
                     else:
-                        algorimo.substituicaoBlocos(listaFilmes,cliente,memoria,listaClientes)
+                        result.erroBanda()
                 #pri.AdicionarDadosPlanilha(memoria,listaClientes,instanteTempo,result.acertos,result.erros,listaFilmes,memoriaTotal)
                 printDados.intefase3(instanteTempo,result,memoria,memoriaTotal,listaClientes,listaFilmes,algorimo.classificacao)
 

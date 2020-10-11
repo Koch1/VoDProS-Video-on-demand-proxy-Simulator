@@ -9,7 +9,4 @@ class AlgortimoAleatorio:
         del(listaFilmes[memoria[r1][0]].blocoMemoria[memoria[r1][1]])
         listaFilmes[cliente.idFilme].blocoMemoria[cliente.idBloco]=r1
         memoria[r1]=[cliente.idFilme,cliente.idBloco,listaFilmes[cliente.idFilme].blocos[cliente.idBloco]]
-        
 
-
-       
