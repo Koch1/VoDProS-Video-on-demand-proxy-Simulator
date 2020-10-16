@@ -4,7 +4,7 @@ class Cliente:
         self.idFilme=int(filme)
         self.tempoInicio=int(tempo)
         self.idBloco=int(bloco)
-        self.tamanhoBloco=25
+        self.tamanhoBloco=1000
     def trocaBloco(self, listaFilmes):
         if(self.idBloco==-1):
             listaFilmes[self.idFilme].numeroClientes+=1

@@ -278,3 +278,4042 @@ Arquivo Erros: 62633
 Total Clientes: 690
 Total Pacotes Reais: 69690
 
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 0
+Arquivo Erros: 0
+Total Clientes: 1
+Total Pacotes Reais: 1
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 1
+Arquivo Erros: 0
+Total Clientes: 2
+Total Pacotes Reais: 3
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 2
+Arquivo Erros: 0
+Total Clientes: 2
+Total Pacotes Reais: 3
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 2
+Arquivo Erros: 1
+Total Clientes: 2
+Total Pacotes Reais: 5
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 3
+Arquivo Erros: 1
+Total Clientes: 2
+Total Pacotes Reais: 5
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 4
+Arquivo Erros: 2
+Total Clientes: 3
+Total Pacotes Reais: 8
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 5
+Arquivo Erros: 2
+Total Clientes: 3
+Total Pacotes Reais: 8
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 5
+Arquivo Erros: 3
+Total Clientes: 3
+Total Pacotes Reais: 11
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 6
+Arquivo Erros: 3
+Total Clientes: 3
+Total Pacotes Reais: 11
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 6
+Arquivo Erros: 4
+Total Clientes: 3
+Total Pacotes Reais: 11
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 6
+Arquivo Erros: 5
+Total Clientes: 3
+Total Pacotes Reais: 14
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 7
+Arquivo Erros: 5
+Total Clientes: 3
+Total Pacotes Reais: 14
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 7
+Arquivo Erros: 6
+Total Clientes: 3
+Total Pacotes Reais: 14
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 8
+Arquivo Erros: 7
+Total Clientes: 3
+Total Pacotes Reais: 17
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 9
+Arquivo Erros: 7
+Total Clientes: 3
+Total Pacotes Reais: 17
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 9
+Arquivo Erros: 8
+Total Clientes: 5
+Total Pacotes Reais: 22
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 9
+Arquivo Erros: 9
+Total Clientes: 5
+Total Pacotes Reais: 22
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 10
+Arquivo Erros: 9
+Total Clientes: 5
+Total Pacotes Reais: 22
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 10
+Arquivo Erros: 10
+Total Clientes: 5
+Total Pacotes Reais: 22
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 10
+Arquivo Erros: 11
+Total Clientes: 5
+Total Pacotes Reais: 22
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 10
+Arquivo Erros: 12
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 11
+Arquivo Erros: 12
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 11
+Arquivo Erros: 13
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 11
+Arquivo Erros: 14
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 11
+Arquivo Erros: 15
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 11
+Arquivo Erros: 16
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 12
+Arquivo Erros: 17
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 17
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 18
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 19
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 20
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 21
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 22
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 22
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 23
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 24
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 25
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 26
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 27
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 28
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 28
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 29
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 30
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 31
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 32
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 33
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 34
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 35
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 17
+Arquivo Erros: 35
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 17
+Arquivo Erros: 36
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 17
+Arquivo Erros: 37
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 17
+Arquivo Erros: 38
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 17
+Arquivo Erros: 39
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 17
+Arquivo Erros: 40
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 40
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 41
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 42
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 43
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 44
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 45
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 46
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 47
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 47
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 48
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 49
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 50
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 51
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 52
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 53
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 54
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 55
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 56
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 56
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 57
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 58
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 59
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 60
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 61
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 62
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 63
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 64
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 21
+Arquivo Erros: 65
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 21
+Arquivo Erros: 66
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 66
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 67
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 68
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 69
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 70
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 71
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 72
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 73
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 73
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 74
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 75
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 76
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 77
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 78
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 79
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 80
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 81
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 82
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 82
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 83
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 84
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 85
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 86
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 87
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 88
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 89
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 90
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 91
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 91
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 92
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 93
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 95
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 96
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 97
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 98
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 99
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 26
+Arquivo Erros: 100
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 26
+Arquivo Erros: 101
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 101
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 102
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 103
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 104
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 105
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 106
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 107
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 108
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 108
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 109
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 110
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 111
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 112
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 113
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 114
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 115
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 116
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 117
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 117
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 118
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 119
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 120
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 121
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 122
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 123
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 124
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 125
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 126
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 126
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 127
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 128
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 129
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 130
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 131
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 132
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 133
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 134
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 31
+Arquivo Erros: 135
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 31
+Arquivo Erros: 136
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 136
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 137
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 138
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 139
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 140
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 141
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 142
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 143
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 143
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 144
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 145
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 146
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 147
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 148
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 149
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 150
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 151
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 152
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 152
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 153
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 154
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 155
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 156
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 157
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 158
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 159
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 160
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 160
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 161
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 162
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 163
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 164
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 165
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 166
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 36
+Arquivo Erros: 167
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 37
+Arquivo Erros: 167
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 38
+Arquivo Erros: 167
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 38
+Arquivo Erros: 168
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 38
+Arquivo Erros: 169
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 38
+Arquivo Erros: 170
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 38
+Arquivo Erros: 171
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 38
+Arquivo Erros: 172
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 39
+Arquivo Erros: 172
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 172
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 173
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 174
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 175
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 176
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 177
+Total Clientes: 10
+Total Pacotes Reais: 224
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 0
+Arquivo Erros: 0
+Total Clientes: 1
+Total Pacotes Reais: 1
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 1
+Arquivo Erros: 0
+Total Clientes: 2
+Total Pacotes Reais: 3
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 2
+Arquivo Erros: 0
+Total Clientes: 2
+Total Pacotes Reais: 3
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 2
+Arquivo Erros: 1
+Total Clientes: 2
+Total Pacotes Reais: 5
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 3
+Arquivo Erros: 1
+Total Clientes: 2
+Total Pacotes Reais: 5
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 4
+Arquivo Erros: 2
+Total Clientes: 3
+Total Pacotes Reais: 8
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 5
+Arquivo Erros: 2
+Total Clientes: 3
+Total Pacotes Reais: 8
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 5
+Arquivo Erros: 3
+Total Clientes: 3
+Total Pacotes Reais: 11
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 6
+Arquivo Erros: 3
+Total Clientes: 3
+Total Pacotes Reais: 11
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 6
+Arquivo Erros: 4
+Total Clientes: 3
+Total Pacotes Reais: 11
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 6
+Arquivo Erros: 5
+Total Clientes: 3
+Total Pacotes Reais: 14
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 7
+Arquivo Erros: 5
+Total Clientes: 3
+Total Pacotes Reais: 14
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 7
+Arquivo Erros: 6
+Total Clientes: 3
+Total Pacotes Reais: 14
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 8
+Arquivo Erros: 7
+Total Clientes: 3
+Total Pacotes Reais: 17
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 9
+Arquivo Erros: 7
+Total Clientes: 3
+Total Pacotes Reais: 17
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 9
+Arquivo Erros: 8
+Total Clientes: 5
+Total Pacotes Reais: 22
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 9
+Arquivo Erros: 9
+Total Clientes: 5
+Total Pacotes Reais: 22
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 10
+Arquivo Erros: 9
+Total Clientes: 5
+Total Pacotes Reais: 22
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 10
+Arquivo Erros: 10
+Total Clientes: 5
+Total Pacotes Reais: 22
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 10
+Arquivo Erros: 11
+Total Clientes: 5
+Total Pacotes Reais: 22
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 10
+Arquivo Erros: 12
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 11
+Arquivo Erros: 12
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 11
+Arquivo Erros: 13
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 11
+Arquivo Erros: 14
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 11
+Arquivo Erros: 15
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 11
+Arquivo Erros: 16
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 12
+Arquivo Erros: 17
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 17
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 18
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 19
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 20
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 21
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 22
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 22
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 23
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 24
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 25
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 26
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 27
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 14
+Arquivo Erros: 28
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 28
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 29
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 30
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 31
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 32
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 33
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 34
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 35
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 17
+Arquivo Erros: 35
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 17
+Arquivo Erros: 36
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 17
+Arquivo Erros: 37
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 17
+Arquivo Erros: 38
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 17
+Arquivo Erros: 39
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 17
+Arquivo Erros: 40
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 40
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 41
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 42
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 43
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 44
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 45
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 46
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 18
+Arquivo Erros: 47
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 47
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 48
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 49
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 50
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 51
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 52
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 53
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 54
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 55
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 19
+Arquivo Erros: 56
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 56
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 57
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 58
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 59
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 60
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 61
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 62
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 63
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 64
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 21
+Arquivo Erros: 65
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 21
+Arquivo Erros: 66
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 66
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 67
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 68
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 69
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 70
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 71
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 72
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 22
+Arquivo Erros: 73
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 73
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 74
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 75
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 76
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 77
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 78
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 79
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 80
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 81
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 23
+Arquivo Erros: 82
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 82
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 83
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 84
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 85
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 86
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 87
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 88
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 89
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 90
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 24
+Arquivo Erros: 91
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 91
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 92
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 93
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 94
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 95
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 96
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 97
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 98
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 25
+Arquivo Erros: 99
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 26
+Arquivo Erros: 100
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 26
+Arquivo Erros: 101
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 101
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 102
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 103
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 104
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 105
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 106
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 107
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 108
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 108
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 109
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 110
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 111
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 112
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 113
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 114
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 115
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 116
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 28
+Arquivo Erros: 117
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 117
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 118
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 119
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 120
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 121
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 122
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 123
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 124
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 125
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 29
+Arquivo Erros: 126
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 126
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 127
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 128
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 129
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 130
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 131
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 132
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 133
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 30
+Arquivo Erros: 134
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 31
+Arquivo Erros: 135
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 31
+Arquivo Erros: 136
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 136
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 137
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 138
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 139
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 140
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 141
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 142
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 32
+Arquivo Erros: 143
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 143
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 144
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 145
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 146
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 147
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 148
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 149
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 150
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 151
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 152
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 152
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 153
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 154
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 155
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 156
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 157
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 158
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 159
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 160
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 160
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 161
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 162
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 163
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 164
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 165
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 35
+Arquivo Erros: 166
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 36
+Arquivo Erros: 167
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 37
+Arquivo Erros: 167
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 38
+Arquivo Erros: 167
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 38
+Arquivo Erros: 168
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 38
+Arquivo Erros: 169
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 38
+Arquivo Erros: 170
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 38
+Arquivo Erros: 171
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 38
+Arquivo Erros: 172
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 39
+Arquivo Erros: 172
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 172
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 173
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 174
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 175
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 176
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 177
+Total Clientes: 10
+Total Pacotes Reais: 224
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 41
+Arquivo Erros: 177
+Total Clientes: 10
+Total Pacotes Reais: 224
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 42
+Arquivo Erros: 177
+Total Clientes: 10
+Total Pacotes Reais: 224
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 42
+Arquivo Erros: 178
+Total Clientes: 10
+Total Pacotes Reais: 224
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 42
+Arquivo Erros: 179
+Total Clientes: 10
+Total Pacotes Reais: 224
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 42
+Arquivo Erros: 180
+Total Clientes: 10
+Total Pacotes Reais: 224
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 42
+Arquivo Erros: 181
+Total Clientes: 10
+Total Pacotes Reais: 224
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 42
+Arquivo Erros: 182
+Total Clientes: 10
+Total Pacotes Reais: 231
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 43
+Arquivo Erros: 182
+Total Clientes: 10
+Total Pacotes Reais: 231
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 44
+Arquivo Erros: 182
+Total Clientes: 10
+Total Pacotes Reais: 231
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 44
+Arquivo Erros: 183
+Total Clientes: 10
+Total Pacotes Reais: 231
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 44
+Arquivo Erros: 184
+Total Clientes: 10
+Total Pacotes Reais: 231
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 44
+Arquivo Erros: 185
+Total Clientes: 10
+Total Pacotes Reais: 231
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 44
+Arquivo Erros: 186
+Total Clientes: 10
+Total Pacotes Reais: 231
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 44
+Arquivo Erros: 187
+Total Clientes: 10
+Total Pacotes Reais: 238
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 45
+Arquivo Erros: 187
+Total Clientes: 10
+Total Pacotes Reais: 238
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 46
+Arquivo Erros: 187
+Total Clientes: 10
+Total Pacotes Reais: 238
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 46
+Arquivo Erros: 188
+Total Clientes: 10
+Total Pacotes Reais: 238
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 46
+Arquivo Erros: 189
+Total Clientes: 10
+Total Pacotes Reais: 238
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 46
+Arquivo Erros: 190
+Total Clientes: 10
+Total Pacotes Reais: 238
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 46
+Arquivo Erros: 191
+Total Clientes: 10
+Total Pacotes Reais: 238
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 46
+Arquivo Erros: 192
+Total Clientes: 10
+Total Pacotes Reais: 243
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 47
+Arquivo Erros: 192
+Total Clientes: 10
+Total Pacotes Reais: 243
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 47
+Arquivo Erros: 193
+Total Clientes: 10
+Total Pacotes Reais: 243
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 47
+Arquivo Erros: 194
+Total Clientes: 10
+Total Pacotes Reais: 243
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 47
+Arquivo Erros: 195
+Total Clientes: 10
+Total Pacotes Reais: 243
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 48
+Arquivo Erros: 196
+Total Clientes: 10
+Total Pacotes Reais: 247
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 49
+Arquivo Erros: 196
+Total Clientes: 10
+Total Pacotes Reais: 247
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 49
+Arquivo Erros: 197
+Total Clientes: 10
+Total Pacotes Reais: 247
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 49
+Arquivo Erros: 198
+Total Clientes: 10
+Total Pacotes Reais: 250
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 50
+Arquivo Erros: 198
+Total Clientes: 10
+Total Pacotes Reais: 250
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 50
+Arquivo Erros: 199
+Total Clientes: 10
+Total Pacotes Reais: 250
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 51
+Arquivo Erros: 200
+Total Clientes: 10
+Total Pacotes Reais: 253
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 52
+Arquivo Erros: 200
+Total Clientes: 10
+Total Pacotes Reais: 253
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 53
+Arquivo Erros: 201
+Total Clientes: 10
+Total Pacotes Reais: 256
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 54
+Arquivo Erros: 201
+Total Clientes: 10
+Total Pacotes Reais: 256
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 55
+Arquivo Erros: 202
+Total Clientes: 10
+Total Pacotes Reais: 258
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 57
+Arquivo Erros: 202
+Total Clientes: 10
+Total Pacotes Reais: 260
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 58
+Arquivo Erros: 202
+Total Clientes: 10
+Total Pacotes Reais: 260
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 0
+Arquivo Erros: 0
+Total Clientes: 1
+Total Pacotes Reais: 1
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 1
+Arquivo Erros: 0
+Total Clientes: 2
+Total Pacotes Reais: 3
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 2
+Arquivo Erros: 0
+Total Clientes: 2
+Total Pacotes Reais: 3
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 3
+Arquivo Erros: 0
+Total Clientes: 2
+Total Pacotes Reais: 5
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 4
+Arquivo Erros: 0
+Total Clientes: 2
+Total Pacotes Reais: 5
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 6
+Arquivo Erros: 0
+Total Clientes: 3
+Total Pacotes Reais: 8
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 7
+Arquivo Erros: 0
+Total Clientes: 3
+Total Pacotes Reais: 8
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 9
+Arquivo Erros: 0
+Total Clientes: 3
+Total Pacotes Reais: 11
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 10
+Arquivo Erros: 0
+Total Clientes: 3
+Total Pacotes Reais: 11
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 12
+Arquivo Erros: 0
+Total Clientes: 3
+Total Pacotes Reais: 14
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 13
+Arquivo Erros: 0
+Total Clientes: 3
+Total Pacotes Reais: 14
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 15
+Arquivo Erros: 0
+Total Clientes: 3
+Total Pacotes Reais: 17
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 16
+Arquivo Erros: 0
+Total Clientes: 3
+Total Pacotes Reais: 17
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 20
+Arquivo Erros: 0
+Total Clientes: 5
+Total Pacotes Reais: 22
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 21
+Arquivo Erros: 0
+Total Clientes: 5
+Total Pacotes Reais: 22
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 26
+Arquivo Erros: 0
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 27
+Arquivo Erros: 0
+Total Clientes: 6
+Total Pacotes Reais: 28
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 33
+Arquivo Erros: 0
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 34
+Arquivo Erros: 0
+Total Clientes: 7
+Total Pacotes Reais: 35
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 40
+Arquivo Erros: 0
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 41
+Arquivo Erros: 0
+Total Clientes: 7
+Total Pacotes Reais: 42
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 47
+Arquivo Erros: 0
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 48
+Arquivo Erros: 0
+Total Clientes: 7
+Total Pacotes Reais: 49
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 55
+Arquivo Erros: 0
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 56
+Arquivo Erros: 0
+Total Clientes: 8
+Total Pacotes Reais: 57
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 63
+Arquivo Erros: 0
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 64
+Arquivo Erros: 0
+Total Clientes: 8
+Total Pacotes Reais: 65
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 73
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 74
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 75
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 83
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 84
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 85
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 91
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 92
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 93
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 94
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 95
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 99
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 100
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 101
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 102
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 103
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 104
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 105
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 108
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 109
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 110
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 111
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 112
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 113
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 114
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 115
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 118
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 119
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 120
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 121
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 122
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 123
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 124
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 125
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 128
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 129
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 130
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 131
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 132
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 133
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 134
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 135
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 138
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 139
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 140
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 141
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 142
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 143
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 144
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 145
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 148
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 149
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 150
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 151
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 152
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 153
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 154
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 155
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 158
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 159
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 160
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 161
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 162
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 163
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 164
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 165
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 168
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 169
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 170
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 171
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 172
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 173
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 174
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 175
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 178
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 179
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 180
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 181
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 182
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 183
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 184
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 185
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 188
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 189
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 190
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 191
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 192
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 193
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 194
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 197
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 198
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 199
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 200
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 201
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 202
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 206
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 207
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 208
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 209
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 210
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 214
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 215
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 216
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 217
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 222
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 224
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 223
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 224
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 260
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 260
+
+Algoritimo:algorimo=AlgoritmoLRU()
+Arquivo Leitura: 1t.txt
+Arquivo Acertos: 260
+Arquivo Erros: 0
+Total Clientes: 10
+Total Pacotes Reais: 260
+
