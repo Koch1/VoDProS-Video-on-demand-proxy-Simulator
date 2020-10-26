@@ -19,15 +19,16 @@ class ManipulacaoArquivo:
         nomeArquivo.write('Total Pacotes Reais: '+(str(resultado.totalPacotesEntregues)))
         nomeArquivo.write('\n')
         nomeArquivo.write('\n')
+        arquiv.close()
     
     def leituraLinha(self):
         return self.nomeArquivoLer.readline()
 
-    def novoClienteLido(self):
+    def novoClienteLido(self,tamanhoVideo):
         cli=self.leituraLinha()
         novoCliente=cli.replace('\n', '').split(' ')
         if(len(novoCliente)>1):
-            return Cliente(novoCliente[0],novoCliente[2],novoCliente[1],-1)
+            return Cliente(novoCliente[0],novoCliente[2],novoCliente[1],-1,tamanhoVideo)
         else:
             return 0;
 

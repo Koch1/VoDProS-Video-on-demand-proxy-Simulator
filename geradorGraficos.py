@@ -1,6 +1,8 @@
 class GeradorGraficos:
-    def __init__(self,arquivo,algoritimo):
+    def __init__(self,arquivo,algoritimo,memoria,banda):
         self.nomeAlgoritimo=algoritimo
+        self.memoria=memoria
+        self.banda=banda
         self.acertos=0
         self.arrayAcertos=[]
         self.erros=0
@@ -16,8 +18,34 @@ class GeradorGraficos:
         self.arrayTotalClientes=[]
         self.arrayTotalPacotesNaCache=[]
         self.arrayTotalClientesAtivos=[]
+        #Tempo Execucao
+        self.arrayTempoExecucaoCiclo=[]
+        self.tempoCiclo=0
+        self.arrayTempoDistribucaoNaCahche=[]
+        self.tempoDistribucaoNaCahche=0
+        self.arrayTempoEntradaCliente=[]
+        self.tempoEntradaCliente=float(0)
+        self.arrayTempoOrdenacaoPedidosRequisicao=[]
+        self.tempoOrdenacaoPedidosRequisicao=0
+        self.arrayTempoGerarTabelaTubstituicao=[]
+        self.tempoGerarTabelaTubstituicao=0
+        self.arrayTempoDistribucaoNaRequicaoAtendidas=[]
+        self.tempoDistribucaoNaRequicaoAtendidas=0
+        
 
-
+    def tempoCicloDef(self,tempo):
+        self.tempoCiclo=tempo
+    def tempoDistribucaoNaCahcheDef(self,tempo):
+        self.tempoEntradaCliente=tempo
+    def tempoEntradaClienteDef(self,tempo):
+        self.tempoEntradaCliente=tempo
+    def tempoOrdenacaoPedidosRequisicaoDef(self,tempo):
+        self.tempoOrdenacaoPedidosRequisicao=tempo
+    def tempoGerarTabelaTubstituicaoDef(self,tempo):
+        self.tempoGerarTabelaTubstituicao+=tempo
+    def tempoDistribucaoNaRequicaoAtendidasDef(self,tempo):
+        self.tempoDistribucaoNaRequicaoAtendidas=tempo
+        
     def acerto(self):
         self.acertos=self.acertos+1
     def erro(self):
@@ -48,6 +76,67 @@ class GeradorGraficos:
         self.totalPacotesNaCache=0
         self.arrayTotalClientesAtivos.append(self.totalClientesAtivos)
         self.arrayTotalClientes.append(self.totalClientes)
+        #Tempo execução
+        self.arrayTempoExecucaoCiclo.append(self.tempoCiclo)
+        self.tempoCiclo=0
+        self.arrayTempoDistribucaoNaCahche.append(self.tempoDistribucaoNaCahche)
+        self.tempoDistribucaoNaCahche=0
+        self.arrayTempoEntradaCliente.append(self.tempoEntradaCliente)
+        self.tempoEntradaCliente=0
+        self.arrayTempoOrdenacaoPedidosRequisicao.append(self.tempoOrdenacaoPedidosRequisicao)
+        self.tempoOrdenacaoPedidosRequisicao=0
+        self.arrayTempoGerarTabelaTubstituicao.append(self.tempoGerarTabelaTubstituicao)
+        self.tempoGerarTabelaTubstituicao=0
+        self.arrayTempoDistribucaoNaRequicaoAtendidas.append(self.tempoDistribucaoNaRequicaoAtendidas)
+        self.tempoDistribucaoNaRequicaoAtendidas=0
+        
+    def salvarDados(self,tempoFinal,ciclo):
+        nomeArquivo=open ('resultadoGrafico.txt','a')
+        nomeArquivo.write('Inicio');
+        nomeArquivo.write('\n')
+        nomeArquivo.write('algoritimo='+(str(self.nomeAlgoritimo)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arquivoLeitura='+(str(self.arquivoLeitura)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('memoria= '+(str(self.memoria)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('banda='+(str(self.banda)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('tempoTotalCiclos='+(str(ciclo)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('tempoTotalExecucao='+(str(tempoFinal)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayTempo='+(str(self.arrayTempo)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayAcertos='+(str(self.arrayAcertos)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayErros='+(str(self.arrayErros)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arraysolicitacaoBandas='+(str(self.arraysolicitacaoBandas)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayBandasUsada='+(str(self.arrayBandasUsada)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayTotalClientes='+(str(self.arrayTotalClientes)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayTotalClientesAtivos='+(str(self.arrayTotalClientesAtivos)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayTotalPacotesNaCache='+(str(self.arrayTotalPacotesNaCache)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayTempoExecucao='+(str(self.arrayTempoExecucaoCiclo)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayTempoDistribucaoNaCahche='+(str(self.arrayTempoDistribucaoNaCahche)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayTempoEntradaCliente='+(str(self.arrayTempoEntradaCliente)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayTempoOrdenacaoPedidosRequisicao='+(str(self.arrayTempoOrdenacaoPedidosRequisicao)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayTempoGerarTabelaTubstituicao='+(str(self.arrayTempoGerarTabelaTubstituicao)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('arrayTempoDistribucaoNaRequicaoAtendidas='+(str(self.arrayTempoDistribucaoNaRequicaoAtendidas)))
+        nomeArquivo.write('\n')
+        nomeArquivo.write('fim')
+        nomeArquivo.write('\n')
+        nomeArquivo.write('\n')
 
     def graficoGerar(self, memoria, banda):
         # print(self.arrayTempo)

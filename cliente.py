@@ -1,10 +1,10 @@
 class Cliente:
-    def __init__ (self,cliente,tempo,filme,bloco):
+    def __init__ (self,cliente,tempo,filme,bloco,tamanhoBloco):
         self.idCliente=int(cliente)
         self.idFilme=int(filme)
         self.tempoInicio=int(tempo)
         self.idBloco=int(bloco)
-        self.tamanhoBloco=1000
+        self.tamanhoBloco=tamanhoBloco
     def trocaBloco(self, listaFilmes):
         if(self.idBloco==-1):
             listaFilmes[self.idFilme].numeroClientes+=1
