@@ -277,8 +277,10 @@ if __name__ == "__main__":
     res = SharedResource()
     #execucao(lock, res,arq,'algoritmoLFUcomJanela','AlgoritmoLFUcomJanela','2',20,5,10)
     a=1
-    while a<500:
+    listaThread=[]
+    while a<100:
         execucao(lock, res,arq,'algoritmoLRUcomJanela','AlgoritmoLRUcomJanela',str(a),memoriaTotal,larguraBanda,video)
+        ##execucao(lock, res,arq,'algoritmoLFUcomJanela','AlgoritmoLFUcomJanela',str(a),memoriaTotal,larguraBanda,video)
         a+=1
         print("janela"+str(a))
     #execucao(lock, res,arq,'algoritmoCARTE','AlgoritmoCARTE','2',20,5,10)
