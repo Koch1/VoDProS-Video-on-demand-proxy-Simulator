@@ -1,3 +1,4 @@
+import threading
 class GeradorGraficos:
     def __init__(self,arquivo,algoritimo,memoria,banda):
         self.nomeAlgoritimo=algoritimo
@@ -21,28 +22,28 @@ class GeradorGraficos:
         #Tempo Execucao
         self.arrayTempoExecucaoCiclo=[]
         self.tempoCiclo=0
-        self.arrayTempoDistribucaoNaCahche=[]
-        self.tempoDistribucaoNaCahche=0
+        self.arrayTempoDistribucaoNaCache=[]
+        self.tempoDistribucaoNaCache=0
         self.arrayTempoEntradaCliente=[]
         self.tempoEntradaCliente=float(0)
         self.arrayTempoOrdenacaoPedidosRequisicao=[]
         self.tempoOrdenacaoPedidosRequisicao=0
-        self.arrayTempoGerarTabelaTubstituicao=[]
-        self.tempoGerarTabelaTubstituicao=0
+        self.arrayTempoGerarTabelaSubstituicao=[]
+        self.tempoGerarTabelaSubstituicao=0
         self.arrayTempoDistribucaoNaRequicaoAtendidas=[]
         self.tempoDistribucaoNaRequicaoAtendidas=0
         
 
     def tempoCicloDef(self,tempo):
         self.tempoCiclo=tempo
-    def tempoDistribucaoNaCahcheDef(self,tempo):
+    def tempoDistribucaoNaCacheDef(self,tempo):
         self.tempoEntradaCliente=tempo
     def tempoEntradaClienteDef(self,tempo):
         self.tempoEntradaCliente=tempo
     def tempoOrdenacaoPedidosRequisicaoDef(self,tempo):
         self.tempoOrdenacaoPedidosRequisicao=tempo
-    def tempoGerarTabelaTubstituicaoDef(self,tempo):
-        self.tempoGerarTabelaTubstituicao+=tempo
+    def tempoGerarTabelaSubstituicaoDef(self,tempo):
+        self.tempoGerarTabelaSubstituicao+=tempo
     def tempoDistribucaoNaRequicaoAtendidasDef(self,tempo):
         self.tempoDistribucaoNaRequicaoAtendidas=tempo
         
@@ -79,14 +80,14 @@ class GeradorGraficos:
         #Tempo execução
         self.arrayTempoExecucaoCiclo.append(self.tempoCiclo)
         self.tempoCiclo=0
-        self.arrayTempoDistribucaoNaCahche.append(self.tempoDistribucaoNaCahche)
-        self.tempoDistribucaoNaCahche=0
+        self.arrayTempoDistribucaoNaCache.append(self.tempoDistribucaoNaCache)
+        self.tempoDistribucaoNaCache=0
         self.arrayTempoEntradaCliente.append(self.tempoEntradaCliente)
         self.tempoEntradaCliente=0
         self.arrayTempoOrdenacaoPedidosRequisicao.append(self.tempoOrdenacaoPedidosRequisicao)
         self.tempoOrdenacaoPedidosRequisicao=0
-        self.arrayTempoGerarTabelaTubstituicao.append(self.tempoGerarTabelaTubstituicao)
-        self.tempoGerarTabelaTubstituicao=0
+        self.arrayTempoGerarTabelaSubstituicao.append(self.tempoGerarTabelaSubstituicao)
+        self.tempoGerarTabelaSubstituicao=0
         self.arrayTempoDistribucaoNaRequicaoAtendidas.append(self.tempoDistribucaoNaRequicaoAtendidas)
         self.tempoDistribucaoNaRequicaoAtendidas=0
         
@@ -124,13 +125,13 @@ class GeradorGraficos:
         nomeArquivo.write('\n')
         nomeArquivo.write('arrayTempoExecucao='+(str(self.arrayTempoExecucaoCiclo)))
         nomeArquivo.write('\n')
-        nomeArquivo.write('arrayTempoDistribucaoNaCahche='+(str(self.arrayTempoDistribucaoNaCahche)))
+        nomeArquivo.write('arrayTempoDistribucaoNaCache='+(str(self.arrayTempoDistribucaoNaCache)))
         nomeArquivo.write('\n')
         nomeArquivo.write('arrayTempoEntradaCliente='+(str(self.arrayTempoEntradaCliente)))
         nomeArquivo.write('\n')
         nomeArquivo.write('arrayTempoOrdenacaoPedidosRequisicao='+(str(self.arrayTempoOrdenacaoPedidosRequisicao)))
         nomeArquivo.write('\n')
-        nomeArquivo.write('arrayTempoGerarTabelaTubstituicao='+(str(self.arrayTempoGerarTabelaTubstituicao)))
+        nomeArquivo.write('arrayTempoGerarTabelaSubstituicao='+(str(self.arrayTempoGerarTabelaSubstituicao)))
         nomeArquivo.write('\n')
         nomeArquivo.write('arrayTempoDistribucaoNaRequicaoAtendidas='+(str(self.arrayTempoDistribucaoNaRequicaoAtendidas)))
         nomeArquivo.write('\n')
@@ -150,7 +151,7 @@ class GeradorGraficos:
         
         import plotly.graph_objects as go
         import numpy as np
-        fig = go.Figure()
+        fig = go.Figure(layout_title_text="A Figure Displayed with the 'png' Renderer")
         fig.add_trace(go.Scatter(x=self.arrayTempo, y=self.arrayAcertos,
                             mode='lines+markers',
                             name='Acertos',line=dict(width=1)))
@@ -173,8 +174,8 @@ class GeradorGraficos:
                             mode='lines+markers',
                             name='Total Cliente ',line=dict(width=1)))
         # # Edit the layout
-        fig.update_layout(title=' Graficos tudo <br> Configurações: Memoria:'+str(memoria)+' LarguraBanda:'+str(banda),
+        fig.update_layout(title=' Graficos '+self.nomeAlgoritimo+' <br> Configurações: Memoria:'+str(memoria)+' LarguraBanda:'+str(banda),
                         xaxis_title='Tempo',
                         yaxis_title='Demais informaçoes')
-        fig.show()
+        fig.show(renderer="png", width=800, height=300)
     

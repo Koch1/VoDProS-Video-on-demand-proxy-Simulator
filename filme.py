@@ -3,6 +3,7 @@ class Filme:
         self.idFilme=filme
         self.blocos={}
         self.blocoMemoria={}
+        self.clientes={}
         self.numeroClientes=0
         self.tamanhoFilme=10
     def __repr__(self):

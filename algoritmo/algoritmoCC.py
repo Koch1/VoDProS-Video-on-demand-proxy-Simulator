@@ -10,7 +10,7 @@ class AlgoritmoCC:
         del(listaFilmes[listaSub['idFilme']].blocos[listaSub['idBloco']])
         del(listaFilmes[listaSub['idFilme']].blocoMemoria[listaSub['idBloco']])
         listaFilmes[cliente.idFilme].blocoMemoria[cliente.idBloco]=listaSub['memoria']
-        memoria[listaSub['memoria']]=[cliente.idFilme,cliente.idBloco,listaFilmes[cliente.idFilme].blocos[cliente.idBloco]]
+        memoria[listaSub['memoria']]=[cliente.idFilme,cliente.idBloco,listaFilmes[cliente.idFilme].blocos[cliente.idBloco],(self.variavelGenericaMemoriaCriacao())]
 
     def calcularTabelaSubituicao(self,memoria,listaClientes,listaFilmes,solicitacoes):
         self.classificacao=[]

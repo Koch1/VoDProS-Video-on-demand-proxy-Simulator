@@ -5,6 +5,11 @@ class Cliente:
         self.tempoInicio=int(tempo)
         self.idBloco=int(bloco)
         self.tamanhoBloco=tamanhoBloco
+    
+    def __repr__(self):
+        return 'Cliente:'+str(self.idCliente)+' Filme:'+str(self.idFilme)+" Bloco:"+str(self.idBloco)+" Tempo Inicio:"+str(self.tempoInicio)
+
+        
     def trocaBloco(self, listaFilmes):
         if(self.idBloco==-1):
             listaFilmes[self.idFilme].numeroClientes+=1

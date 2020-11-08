@@ -170,6 +170,7 @@ class PrintDados:
                  textoPrint+=str(""+str(filmess[fil].numeroClientes)+"|")
             print(textoPrint,filmess[fil].blocos)
             print(textoPrint,filmess[fil].blocoMemoria)
+            print(textoPrint,filmess[fil].clientes)
             # for ids,blos in enumerate(filmess[fil].blocos):
             #     if(ids<10):
             #          textoPrint+=str(" "+str(ids)+"->")

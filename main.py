@@ -13,8 +13,8 @@ from planilhaODS import PlaniliaOBS
 from pacote import Pacote
 from geradorGraficos import GeradorGraficos
 import time
-
-def execucao(arquivo,arquivoAgoritmo,classAlgoritmo,argumento,memoriaTotal,larguraBanda,tamanhoVideo):
+import threading
+def execucao(lock, res,arquivo,arquivoAgoritmo,classAlgoritmo,argumento,memoriaTotal,larguraBanda,tamanhoVideo):
     
     #alg="algorimo=AlgortimoAleatorio()"
     #alg="algorimo=AlgortimoCC()"
@@ -59,11 +59,16 @@ def execucao(arquivo,arquivoAgoritmo,classAlgoritmo,argumento,memoriaTotal,largu
             result.novoCliente()
             grafico.novoCliente()
             listaClientes.append(novoCliente)
+            if(novoCliente.idFilme in listaFilmes):
+                listaFilmes[novoCliente.idFilme].clientes[len(listaClientes)]=novoCliente
+            else:
+                listaFilmes[novoCliente.idFilme]=Filme(novoCliente.idFilme)
+                listaFilmes[novoCliente.idFilme].clientes[len(listaClientes)]=novoCliente
             novoCliente=leitura.novoClienteLido(tamanhoVideo)
         fim2 = time.time()
         calculo=fim2 - inicio2
         grafico.tempoEntradaClienteDef(calculo)
-        #print("While entrada Clientes:%.2f "%(calculo))
+        print("While entrada Clientes:%.2f "%(calculo))
         #pri.AdicionarDadosPlanilha(memoria,listaClientes,instanteTempo,result.acertos,result.erros,listaFilmes,memoriaTotal)
         #printDados.intefase3(instanteTempo,result,memoria,memoriaTotal,listaClientes,listaFilmes,algoritmo.classificacao)
         #Substituição da parte dos cliente atendendo
@@ -122,8 +127,8 @@ def execucao(arquivo,arquivoAgoritmo,classAlgoritmo,argumento,memoriaTotal,largu
                         listaEsperaCacheOrdemChegada.append(cliente)
         fim2 = time.time()
         calculo=fim2 - inicio2
-        grafico.tempoDistribucaoNaCahcheDef(calculo)
-        #print("1° For :%.2f "%(calculo))
+        grafico.tempoDistribucaoNaCacheDef(calculo)
+        print("1° For :%.2f "%(calculo))
         
         
         inicio2 = time.time()
@@ -139,8 +144,8 @@ def execucao(arquivo,arquivoAgoritmo,classAlgoritmo,argumento,memoriaTotal,largu
         listaSub=algoritmo.calcularTabelaSubituicao(memoria,listaClientes,listaFilmes,listaEsperaCacheblocoOrdenado[:larguraBanda])
         fim2 = time.time()
         calculo=fim2 - inicio2
-        grafico.tempoGerarTabelaTubstituicaoDef(calculo)
-        #print("Tabela Substuição:%.2f "%(calculo))
+        grafico.tempoGerarTabelaSubstituicaoDef(calculo)
+        print("Tabela Substuição:%.2f "%(calculo))
         #listaEsperaCacheFilme.sort(reverse=True)
         #print(listaEsperaCacheblocoOrdenado)
         #print(listaEsperaCacheFilmeOrdenado)
@@ -167,7 +172,7 @@ def execucao(arquivo,arquivoAgoritmo,classAlgoritmo,argumento,memoriaTotal,largu
                                 fim3 = time.time()
                                 calculo=fim3 - inicio3
                                 inicio2=inicio2+calculo
-                                grafico.tempoGerarTabelaTubstituicaoDef(calculo)
+                                grafico.tempoGerarTabelaSubstituicaoDef(calculo)
                             algoritmo.substituicaoBlocos(listaFilmes,cliente,memoria,listaClientes,listaEsperaCacheblocoOrdenado[:larguraBanda],listaSub.pop(0))
                             # fim3 = time.time()
                             # calculo=fim3 - inicio3
@@ -190,7 +195,7 @@ def execucao(arquivo,arquivoAgoritmo,classAlgoritmo,argumento,memoriaTotal,largu
                             fim3 = time.time()
                             calculo=fim3 - inicio3
                             inicio2=inicio2+calculo
-                            grafico.tempoGerarTabelaTubstituicaoDef(calculo)
+                            grafico.tempoGerarTabelaSubstituicaoDef(calculo)
                         algoritmo.substituicaoBlocos(listaFilmes,cliente,memoria,listaClientes,listaEsperaCacheblocoOrdenado[:larguraBanda],listaSub.pop(0))
                         # fim3 = time.time()
                         # calculo=fim3 - inicio3
@@ -204,7 +209,7 @@ def execucao(arquivo,arquivoAgoritmo,classAlgoritmo,argumento,memoriaTotal,largu
         fim2 = time.time()
         calculo=fim2 - inicio2
         grafico.tempoDistribucaoNaRequicaoAtendidasDef(calculo)
-        #print("2 For: %.2f "%(calculo))
+        print("2 For: %.2f "%(calculo))
         #Verficação final para ver se acabou  a distribuição ou  vai ter q contabilidar mais uma tempo
         if(novoCliente==0 and len(listaClientes)==0):
             #print(novoCliente)
@@ -213,8 +218,10 @@ def execucao(arquivo,arquivoAgoritmo,classAlgoritmo,argumento,memoriaTotal,largu
             grafico.tempoCicloDef(calculo)
             calculo=fim - inicio
             grafico.adiconarTempo(instanteTempo,larguraBanda,tamLista)
+            lock.write_acquire()
             grafico.salvarDados(calculo,instanteTempo)
-            grafico.graficoGerar(memoriaTotal,larguraBanda)
+            lock.write_release()
+            #grafico.graficoGerar(memoriaTotal,larguraBanda)
             #leitura.escritaResult(result)
             break
         else:
@@ -227,8 +234,33 @@ def execucao(arquivo,arquivoAgoritmo,classAlgoritmo,argumento,memoriaTotal,largu
             
             print("Tempo do Ciclo %i :%.2f" %(instanteTempo,calculo))
     # pri.salvarArquivo()
-
-
+class RWLock:
+    #construtor
+    def __init__(self):
+        self.readers = 0
+        self.mutex = threading.Semaphore(1) #Semáforo de leitura
+        self.lock = threading.Semaphore(1)  #Semáforo de escrita
+    def read_acquire(self):
+        self.mutex.acquire() #bloqueia para leitura
+        self.readers += 1 #soma a quantidade de leitores
+        if self.readers == 1:
+            self.lock.acquire() #Se você é o primeiro leitor, bloqueie o recurso dos escritores.
+                                # Recurso permanece reservado para leitores subseqüentes
+        self.mutex.release() # desbloqueia
+    def read_release(self):
+        self.mutex.acquire() #bloqueia para leitura
+        self.readers -= 1
+        if self.readers == 0:
+            self.lock.release() #Se você for o último leitor, poderá desbloquear o recurso. 
+                                # Isso torna disponível para escritores.
+        self.mutex.release() #desbloqueia
+    def write_acquire(self):
+        self.lock.acquire() #bloqueia o semaforo de escrita
+    def write_release(self):
+        self.lock.release() #desbloqueia
+class SharedResource:
+    def __init__(self):
+        self.val = 0
 
 #Menu  de arquivo fazer
 
@@ -241,9 +273,54 @@ if __name__ == "__main__":
     arq='3.txt' 
     larguraBanda=700
     video=5400
-    execucao(arq,'algoritmoCC','AlgoritmoCC','',memoriaTotal,larguraBanda,video)
-    execucao(arq,'algoritmoLRU','AlgoritmoLRU','',memoriaTotal,larguraBanda,video)
-    execucao(arq,'algoritmoLFU','AlgoritmoLFU','',memoriaTotal,larguraBanda,video) 
-    execucao(arq,'algoritmoCARTE','AlgoritmoCARTE','85',memoriaTotal,larguraBanda,video) 
-    #(arquivo,arquivoAgoritmo,classAlgoritmo,argumento,memoriaTotal,larguraBanda,tamanhoVideo):
-#Menu  de dos codicos
+    lock = RWLock()
+    res = SharedResource()
+    #execucao(lock, res,arq,'algoritmoLFUcomJanela','AlgoritmoLFUcomJanela','2',20,5,10)
+    a=1
+    while a<500:
+        execucao(lock, res,arq,'algoritmoLRUcomJanela','AlgoritmoLRUcomJanela',str(a),memoriaTotal,larguraBanda,video)
+        a+=1
+        print("janela"+str(a))
+    #execucao(lock, res,arq,'algoritmoCARTE','AlgoritmoCARTE','2',20,5,10)
+    #execucao(lock, res,arq,'algoritmoLFUcomJanela','AlgoritmoLFUcomJanela','2',20,5,10)
+    #execucao(lock, res,arq,'algoritmoLFUcomJanela','AlgoritmoLFUcomJanela','2',20,5,10)
+    #execucao(lock, res,arq,'algoritmoLFUcomJanela','AlgoritmoLFUcomJanela','2',20,5,10)
+    #execucao(lock, res,arq,'algoritmoLFUcomJanela','AlgoritmoLFUcomJanela','2',20,5,10)
+    #execucao(lock, res,arq,'algoritmoLFUcomJanela','AlgoritmoLFUcomJanela','2',20,5,10)
+
+    #execucao(lock, res,arq,'algoritmoCC','AlgoritmoCC','',memoriaTotal,larguraBanda,video)
+    # execucao(lock, res,arq,'algoritmoLRU','AlgoritmoLRU','',memoriaTotal,larguraBanda,video)
+    # execucao(lock, res,arq,'algoritmoLFU','AlgoritmoLFU','',memoriaTotal,larguraBanda,video) 
+    # execucao(lock, res,arq,'algoritmoCARTE','AlgoritmoCARTE','85',memoriaTotal,larguraBanda,video) 
+#     listaThread=[]
+#     lock = RWLock()
+#     res = SharedResource()
+#     # # listaThread.append(threading.Thread(target=execucao,args=(arq,'algoritmoCC','AlgoritmoCC','',memoriaTotal,larguraBanda,video,)))
+#     # # listaThread.append(threading.Thread(target=execucao,args=(arq,'algoritmoLRU','AlgoritmoLRU','',memoriaTotal,larguraBanda,video,)))
+#     # # listaThread.append(threading.Thread(target=execucao,args=(arq,'algoritmoLFU','AlgoritmoLFU','',memoriaTotal,larguraBanda,video,)))
+#     # # listaThread.append(threading.Thread(target=execucao,args=(arq,'algoritmoCARTE','AlgoritmoCARTE','85',memoriaTotal,larguraBanda,video,)))
+#     listaThread.append(threading.Thread(target=execucao,args=(lock, res,arq,'algoritmoCC','AlgoritmoCC','',50,10,20,)))
+#     listaThread.append(threading.Thread(target=execucao,args=(lock, res,arq,'algoritmoLRU','AlgoritmoLRU','',50,10,20,)))
+#     listaThread.append(threading.Thread(target=execucao,args=(lock, res,arq,'algoritmoLFU','AlgoritmoLFU','',50,10,20,)))
+#     listaThread.append(threading.Thread(target=execucao,args=(lock, res,arq,'algoritmoCARTE','AlgoritmoCARTE','5',50,10,20,)))
+#     possicao=0
+#     while ( possicao<len(listaThread)):
+#             listaThread[possicao].start()
+#             possicao+=1
+#     for t in listaThread:
+#         t.join()
+#     print ("Exiting Main Thread")
+# #(arquivo,arquivoAgoritmo,classAlgoritmo,argumento,memoriaTotal,larguraBanda,tamanhoVideo):
+# #Menu  de dos codicos
+
+
+
+
+
+
+
+
+
+
+
+
