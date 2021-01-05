@@ -1,8 +1,0 @@
-Media Acertos=0.43417783063999843
-Algorimo Usado:LRU
-DataExecusao:2020-11-23 07:00:15.817297
-Tamanho Video:5527
-Nome Arquivo Lido:3.txt
-Tamanho  Memoria22756
-Numero de ciclos tempos:12425 segundos simulados 
-Tempo para execução :3268.492086172104 segundos

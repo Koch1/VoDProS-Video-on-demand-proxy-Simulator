@@ -1,8 +1,0 @@
-Media Acertos=0.41991945549544435
-Algorimo Usado:FIFO
-DataExecusao:2020-11-22 09:47:38.459244
-Tamanho Video:5526
-Nome Arquivo Lido:3gerado.txt
-Tamanho  Memoria22756
-Numero de ciclos tempos:12466 segundos simulados 
-Tempo para execução :3378.788102388382 segundos

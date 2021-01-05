@@ -1,8 +1,0 @@
-Media Acertos=0.4450623714734552
-Algorimo Usado:CC
-DataExecusao:2020-12-04 08:28:37.210199
-Tamanho Video:5527
-Nome Arquivo Lido:3gerador3.txt
-Tamanho  Memoria22756
-Numero de ciclos tempos:12594 segundos simulados 
-Tempo para execução :4573.901519775391 segundos

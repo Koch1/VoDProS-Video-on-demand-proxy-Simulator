@@ -1,8 +1,0 @@
-Media Acertos=0.44213742523882976
-Algorimo Usado:LRU
-DataExecusao:2020-11-22 14:36:38.823499
-Tamanho Video:5527
-Nome Arquivo Lido:3gerado2.txt
-Tamanho  Memoria22756
-Numero de ciclos tempos:12705 segundos simulados 
-Tempo para execução :6047.0667498111725 segundos

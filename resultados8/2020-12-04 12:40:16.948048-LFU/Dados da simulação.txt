@@ -1,8 +1,0 @@
-Media Acertos=0.432007513973758
-Algorimo Usado:LFU
-DataExecusao:2020-12-03 21:32:03.436553
-Tamanho Video:5527
-Nome Arquivo Lido:3gerado7.txt
-Tamanho  Memoria22756
-Numero de ciclos tempos:12835 segundos simulados 
-Tempo para execução :3599.2081820964813 segundos
