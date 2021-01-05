@@ -1,0 +1,8 @@
+Media Acertos=0.44480743544975054
+Algorimo Usado:CC
+DataExecusao:2020-12-04 10:01:50.881329
+Tamanho Video:5527
+Nome Arquivo Lido:3gerado9.txt
+Tamanho  Memoria22756
+Numero de ciclos tempos:12643 segundos simulados 
+Tempo para execução :5148.522387742996 segundos

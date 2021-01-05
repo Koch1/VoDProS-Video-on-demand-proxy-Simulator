@@ -1,0 +1,8 @@
+Media Acertos=0.5337332690220669
+Algorimo Usado:CARTEcom janela de 85
+DataExecusao:2020-11-20 02:38:44.711732
+Tamanho Video:5527
+Nome Arquivo Lido:3gerado.txt
+Tamanho  Memoria22756
+Numero de ciclos tempos:12467 segundos simulados 
+Tempo para execução :6833.315608739853 segundos

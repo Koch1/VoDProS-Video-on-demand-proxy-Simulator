@@ -1,0 +1,8 @@
+Media Acertos=0.417320694229034
+Algorimo Usado:Randon
+DataExecusao:2020-11-22 15:59:09.862876
+Tamanho Video:5527
+Nome Arquivo Lido:3gerado.txt
+Tamanho  Memoria22756
+Numero de ciclos tempos:12467 segundos simulados 
+Tempo para execução :5807.432117700577 segundos

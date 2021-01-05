@@ -1,0 +1,8 @@
+Media Acertos=0.4527198707328459
+Algorimo Usado:CC
+DataExecusao:2020-12-04 04:41:30.585872
+Tamanho Video:5527
+Nome Arquivo Lido:3.txt
+Tamanho  Memoria22756
+Numero de ciclos tempos:12425 segundos simulados 
+Tempo para execução :4944.588432073593 segundos
