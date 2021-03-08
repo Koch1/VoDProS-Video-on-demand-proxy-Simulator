@@ -5,4 +5,5 @@ resultadosTXT/
 src/RAM/
 src/gui/
 src/resultado9/
-src/__pycache__/
+src/algoritmo/__pycache__/
+src/resultadoGrafico*
