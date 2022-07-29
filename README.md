@@ -1,4 +1,4 @@
-# Emulador_de_Algoritimos_Proxy_VoD
+# VoDProS-Video-on-demand-proxy-Simulator
 
 
 Estou ajeitando o codigo para publicar
