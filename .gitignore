@@ -1,9 +1,3 @@
-arquivosAntigos/
-baseLeitura/
-graficos/
-resultadosTXT/
-src/RAM/
-src/gui/
 src/resultado9/
 src/algoritmo/__pycache__/
-src/resultadoGrafico*
+src/clas/__pycache__/
