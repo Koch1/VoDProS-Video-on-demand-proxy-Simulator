@@ -1,44 +1,71 @@
-from printDados import PrintDados
+from clas.printDados import PrintDados
 from operator import itemgetter, attrgetter
 import random 
+from clas.arvore import Arvore
+from clas.no import No
+import time
+
 
 class AlgoritmoRandon:
-    def __init__(self):
+    def __init__(self,jan):
         self.classificacao=[]
         self.valorMaior=0
         self.nomeAlgoritmo="Randon"
         
-    def substituicaoBlocos(self,listaFilmes,cliente,memoria,listaClientes,solicitacoes,listaSub):
+    def substituicaoBlocos(self,listaFilmes,cliente,memoria,listaClientes,solicitacoes,listaSub,instanteTempo):
         #listaSub=self.calcularTabelaSubituicao(memoria,listaClientes,listaFilmes,solicitacoes)
-        # cliente.trocaBloco(listaFilmes)
-        # del(listaFilmes[listaSub['idFilme']].blocos[listaSub['idBloco']])
-        # del(listaFilmes[listaSub['idFilme']].blocoMemoria[listaSub['idBloco']])
-        # listaFilmes[cliente.idFilme].blocoMemoria[cliente.idBloco]=listaSub['memoria']
-        # memoria[listaSub['memoria']]=[cliente.idFilme,cliente.idBloco,listaFilmes[cliente.idFilme].blocos[cliente.idBloco],self.variavelGenericaMemoriaCriacao()]
-        r1 = random.randint(0, (len(memoria)-1))
-        cliente.trocaBloco(listaFilmes)
-        del(listaFilmes[memoria[r1][0]].blocos[memoria[r1][1]])
-        del(listaFilmes[memoria[r1][0]].blocoMemoria[memoria[r1][1]])
-        listaFilmes[cliente.idFilme].blocoMemoria[cliente.idBloco]=r1
-        memoria[r1]=[cliente.idFilme,cliente.idBloco,listaFilmes[cliente.idFilme].blocos[cliente.idBloco],self.variavelGenericaMemoriaCriacao()]
 
+        if(cliente.idBloco==-1):
+            listaFilmes[cliente.idFilme].numeroClientes+=1
+        else:
+            if((listaFilmes[cliente.idFilme].blocos).get(cliente.idBloco)!=None):
+                listaFilmes[cliente.idFilme].blocos[cliente.idBloco]-=1
+        cliente.idBloco+=1
+        if((listaFilmes[cliente.idFilme].blocos).get(cliente.idBloco)!=None):
+            listaFilmes[cliente.idFilme].blocos[cliente.idBloco]+=1
+        else:
+            listaFilmes[cliente.idFilme].blocos[cliente.idBloco]=1
 
-    def calcularTabelaSubituicao(self,memoria,listaClientes,listaFilmes,solicitacoes):
-        self.classificacao=[]
-        for idM, bloco in enumerate(memoria):
-            if(((str(bloco[1])+"-"+str(bloco[0])) not in solicitacoes) or len(memoria)<len(solicitacoes)):
-                pontoBloco={'idFilme':bloco[0],'idBloco':bloco[1], 'pontuacao':bloco[3], 'memoria':idM, 'proximoFinal':(bloco[1]-listaFilmes[bloco[0]].tamanhoFilme)}
-                self.classificacao.append(pontoBloco)
-        #self.classificacao=sorted(self.classificacao, key=itemgetter('pontuacao'))
-        return self.classificacao
+        del(listaFilmes[listaSub['idFilme']].blocos[listaSub['idBloco']])
+        del(listaFilmes[listaSub['idFilme']].blocoMemoria[listaSub['idBloco']])
+        listaFilmes[cliente.idFilme].blocoMemoria[cliente.idBloco]=listaSub['memoria']
+        memoria[listaSub['memoria']]=[cliente.idFilme,cliente.idBloco,listaFilmes[cliente.idFilme].blocos[cliente.idBloco],self.variavelGenericaMemoriaCriacao(listaFilmes[cliente.idFilme],memoria,cliente.idBloco)]
+
     def variavelGenericaMemoriaAcerto(self, valor):
-        self.valorMaior+=1
-        return self.valorMaior
-    def variavelGenericaMemoriaCriacao(self):
-        self.valorMaior+=1
-        return self.valorMaior
-    def organizarMemororia(self,memoria):
-        # novaMemoria=[]
-        # for bloco in memoria:
-        #     novaMemoria.append([bloco[0],bloco[1],bloco[2],(bloco[3]+1)])
-        return memoria;
+        #self.valorMaior+=1
+        return valor
+    def variavelGenericaMemoriaCriacao(self,listaFilme,memoria,idBloco):
+        if(isinstance(memoria, list)):
+            r1 = random.randint(0, (len(memoria)-1))
+        else:
+            r1 = random.randint(0,(memoria-1))
+        listaFilme.classificacao[idBloco]=r1
+        return r1
+    def calcularClasificacao(self,idBloco,listaFilme,arvore):
+        # Classificar clientes
+        inicio2 = time.time()
+        
+        if(listaFilme.blocos.get((idBloco))!=None):
+            pontuar=listaFilme.classificacao[idBloco]
+            if(listaFilme.endNos.get(idBloco)!=None): 
+                if(listaFilme.endNos[idBloco].item!=pontuar):
+                    nodo=No(pontuar,idBloco,listaFilme.idFilme,listaFilme.blocoMemoria[idBloco])
+                    if(len(listaFilme.endNos[idBloco].blocosChave)>1):
+                        del listaFilme.endNos[idBloco].blocosChave[str(listaFilme.idFilme)+'-'+str(idBloco)]
+                        listaFilme.endNos[idBloco]=arvore.inserir(nodo)
+                    else:
+                        arvore.removeNos(listaFilme.endNos[idBloco])  
+                        listaFilme.endNos[idBloco]=arvore.inserir(nodo)
+            else:
+                nodo=No(pontuar,idBloco,listaFilme.idFilme,listaFilme.blocoMemoria[idBloco])
+                listaFilme.endNos[idBloco]=arvore.inserir(nodo)
+        fim2 = time.time()
+        calculo=fim2 - inicio2
+    
+
+    def alterarClassificar(self,argumento,listaFilmes,cliente,instanteTempo):
+        a=0
+
+    def saidaCliente(self,argumento,listaFilme,cliente,arvore,log,memoria):
+        a=0        
+        

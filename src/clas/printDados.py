@@ -96,6 +96,7 @@ class PrintDados:
         filme=''
         blocos=''
         proximoFinal=''
+
         for id,classif in enumerate(classifisao):
             if(id<10):
                 posicaoMemoria+=str(" "+str(classif['memoria'])+"|")
