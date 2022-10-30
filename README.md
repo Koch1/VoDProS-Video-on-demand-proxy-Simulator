@@ -3,7 +3,7 @@
 VoDProS consegue simular o fluxo do funcionamento  de servidor proxy VoD e atraves do simulação conseguindo extrair informações como a taxa de acerto do proxy, para diferentes cerarios e argortimos.
 
 
-###Para executar tem ter alguns pacotes instalado: 
+### Para executar tem ter alguns pacotes instalado: 
 
 OS-sys
 `pip install os-sys `
@@ -17,8 +17,8 @@ Python-math
 Multiprocess
 `pip install multiprocess`
 
-###Para executar o código no pode executar: 
-####PYTHON 3 
+### Para executar o código no pode executar: 
+#### PYTHON 3 
 
     cd ./src/
     
@@ -34,10 +34,10 @@ ou
 2º argumento é numero da varição dos parametros
 3º argumento é numero do algortimo que deseja executar
 
-###OBS
+### OBS
   Altere a variale `numeorThreadMax` que é quantidade de thread que o simulador podera usar.
 
-#####*OBS:* utilise o pypy3 como compilador por executar o codigo em menor tempo.
+##### *OBS:* utilise o pypy3 como compilador por executar o codigo em menor tempo.
 
 
 ###### Matheus Koch-
