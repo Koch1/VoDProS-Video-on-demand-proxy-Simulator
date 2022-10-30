@@ -41,14 +41,15 @@ def execucao(interfase,lock,res,arquivoLeitura,arquivoAgoritmo,classAlgoritmo,ar
     #Argumento,seria janela do tempo
     argumento=int(argumento)
     
+    #Para salvar só nome do Arquivo Sera Lido
+    arquivo=(arquivoLeitura.split('/'))[-1];    
+
     #Classe resposavel salvar os resultados finais em txt, manter historico da valores a cada segundo
-    resultado=Resultado(arquivo,algoritmo.nomeAlgoritmo,memoriaTotal,larguraBanda,tamanhoVideo)
+    resultado=Resultado(arquivoLeitura,algoritmo.nomeAlgoritmo,memoriaTotal,larguraBanda,tamanhoVideo)
 
     #tempo medido tempo proxy,não funciona na escala tempo real
     instanteTempo=0
     
-    #Para salvar só nome do Arquivo Sera Lido
-    arquivo=(arquivoLeitura.split('/'))[-1];    
     
     #Iniciar a classe leitura do arquivo
     leitura=ManipulacaoArquivo(arquivoLeitura,resultado,classAlgoritmo)
@@ -86,7 +87,7 @@ def execucao(interfase,lock,res,arquivoLeitura,arquivoAgoritmo,classAlgoritmo,ar
     #Matriz que  tem infomaçoes do filme e possição da memoria se encontra bloco.  Funciona como Organição de memoria Indexada
     listaFilmes={}
     #Tem os contadores  dentro, é chamada para adicionar erro ou  acertos. Cada repetição e sempre salvo salvamentoResultados e depois zerado os valores
-    result=Resultado(arquivo,algoritmo.nomeAlgoritmo)
+#    result=Resultado(arquivo,algoritmo.nomeAlgoritmo)
     #Inicia class que exibe informações na tela.  Desde que esteja ativo o modo de ezibição
     printDados=PrintDados()
     
@@ -117,13 +118,14 @@ def execucao(interfase,lock,res,arquivoLeitura,arquivoAgoritmo,classAlgoritmo,ar
                 listaFilmes[novoCliente.idFilme].clientes[novoCliente.idCliente]=novoCliente
             #leutura do proximo cliente do arquivo
             novoCliente=leitura.novoClienteLido(tamanhoVideo)
+
         #Calculo tempo e quantidade execução       
         fim2 = time.time()
         calculo=fim2 - inicio2
         primeiroT[0]+=calculo
         primeiroT[1]+=1
         #Log escrita na tela. 
-        log.escrever("While %i entrada Clientes:%.5f "%(contadoresloop,(primeiroT[0]/primeiroT[1])))
+        log.escrever("Tempo para entrada Clientes:%.5f "%((primeiroT[0]/primeiroT[1])))
         #Salvar dados calculo tempo
         resultado.tempoEntradaClienteDef(calculo)
         
@@ -131,7 +133,7 @@ def execucao(interfase,lock,res,arquivoLeitura,arquivoAgoritmo,classAlgoritmo,ar
         if(interfase):
             classificacao=[]
             arvore.mostrarClassificacao(None,False,arvore.root,classificacao)
-            printDados.intefase3(instanteTempo,result,memoria,memoriaTotal,listaClientes,listaFilmes,classificacao)
+            printDados.intefase3(instanteTempo,resultado,memoria,memoriaTotal,listaClientes,listaFilmes,classificacao)
         #Substituição da parte dos cliente atendendo
         contadorLarguraBanda=0;
         listaEsperaCachebloco={}
@@ -226,7 +228,6 @@ def execucao(interfase,lock,res,arquivoLeitura,arquivoAgoritmo,classAlgoritmo,ar
                             print(["Diferentes 2-2",quantidade['quantidade'],len(memoria),quantidadeNaoEncontrado])
                             breakpoint()
                     #Adiciona na taxa de acerto +1
-                    result.acerto()
                     resultado.acerto()
                     resultado.cachePacote()
                     #Fim do contado de tempo da cliente encontram pacote na cache
@@ -571,17 +572,19 @@ if __name__ == "__main__":
     #Listas a diretorio de leitura, tem "baseLeitura"
     print("Diretorio Leuturia")
     listaDiretorios=[]
+    opcaoALgoritmo=0
     for diretorio, subpastas, arquivos in os.walk("../",topdown=False):
         if("../baseLeitura" in diretorio):
             print(str(len(listaDiretorios))+"-"+"("+diretorio+")")
             listaDiretorios.append(diretorio)
-    print(len(sys.argv))
+    #print(len(sys.argv))
     if(len(sys.argv)<2):
-        diretoriaDeLeitura=input()
+        #print("Digite o numero do diretorio de leitura: ")
+        diretoriaDeLeitura=input("Digite o numero do diretorio de leitura: " )
     else:        
         diretoriaDeLeitura=sys.argv[1]
     #opcao execução
-    print("1-Varia memoria 1GB a 25 GB  pulos 1GB")
+    print("\n1-Varia memoria 1GB a 25 GB  pulos 1GB")
     print("2-Varia memoria 25GB a 50 GB pulos 1GB ")
     print("3-Varia banda 0,4Gb a 4Gb blocos pulos 50 blocos")
     print("5-Varia video 0.5GB a 10GB  pulos 0.5GB  Operacao:")
@@ -589,10 +592,11 @@ if __name__ == "__main__":
     try:
         #Pega o valor por agumentos ou pelo terminal
         if(len(sys.argv)<3):
-            inputEntrada=input()
+            inputEntrada=input("Digite tipo de varição: ")
         else:        
             inputEntrada=sys.argv[2]
         inputEntrada=int(inputEntrada)
+        #variavel para lista de thread
         listaThread=[]
         lock = multiprocessing.Lock()
         #parametroFixo, pode mudar de acorodo opção escolida
@@ -600,8 +604,9 @@ if __name__ == "__main__":
         larguraBanda=3.4
         video=3.4
         #Caminho dos arquivos leitura 
-        pasta = listaDiretorios[diretoriaDeLeitura]
-        
+        pasta = listaDiretorios[int(diretoriaDeLeitura)]
+        print("To aqui")
+        print(inputEntrada)
         if(inputEntrada==1):
             print("1)LRU 2)LFU 3)FIFO 4)Randon 5)LRU com Janela 6)LFU com Janela 7)Carte 8)CC ")
             if(len(sys.argv)<4):
@@ -612,6 +617,7 @@ if __name__ == "__main__":
             #Iniciar variavel de valor inicial simulação
             memoriaTotal=1            
             while memoriaTotal<=25:
+                print("To aqui")
                 listaThread+=parametroInput(opcaoALgoritmo,lock,pasta,memoriaTotal,larguraBanda,video,inputEntrada)
                 memoriaTotal+=1
         elif(inputEntrada==2):

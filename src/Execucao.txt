@@ -2,3 +2,48 @@ Erro
 Erro
 Erro
 Erro
+Erro
+Erro
+Opcao configuraçao:1Algoritmos:0
+list indices must be integers or slices, not str
+Erro
+Opcao configuraçao:1Algoritmos:0
+list indices must be integers or slices, not str
+Erro
+Opcao configuraçao:3Algoritmos:0
+list indices must be integers or slices, not str
+Erro
+Opcao configuraçao:1Algoritmos:0
+list indices must be integers or slices, not str
+Erro
+Opcao configuraçao:2Algoritmos:0
+list indices must be integers or slices, not str
+Erro
+Opcao configuraçao:1Algoritmos:0
+list indices must be integers or slices, not str
+Erro
+Opcao configuraçao:1Algoritmos:0
+list indices must be integers or slices, not str
+Erro
+Opcao configuraçao:1Algoritmos:0
+list indices must be integers or slices, not str
+Erro
+Opcao configuraçao:1Algoritmos:0
+list indices must be integers or slices, not str
+Erro
+Opcao configuraçao:1Algoritmos:0
+list indices must be integers or slices, not str
+Erro
+Opcao configuraçao:1Algoritmos:0
+list indices must be integers or slices, not str
+Erro
+Opcao configuraçao:1Algoritmos:1
+list assignment index out of range
+Erro
+Opcao configuraçao:1Algoritmos:1
+list assignment index out of range
+Erro
+Opcao configuraçao:1Algoritmos:1
+list assignment index out of range
+Finalizado Execução 
+Opcao configuraçao:1Algoritmos:1
