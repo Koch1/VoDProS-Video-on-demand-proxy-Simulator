@@ -45,7 +45,7 @@ def execucao(interfase,lock,res,arquivoLeitura,arquivoAgoritmo,classAlgoritmo,ar
     arquivo=(arquivoLeitura.split('/'))[-1];    
 
     #Classe resposavel salvar os resultados finais em txt, manter historico da valores a cada segundo
-    resultado=Resultado(arquivoLeitura,algoritmo.nomeAlgoritmo,memoriaTotal,larguraBanda,tamanhoVideo)
+    resultado=Resultado(arquivo,algoritmo.nomeAlgoritmo,memoriaTotal,larguraBanda,tamanhoVideo)
 
     #tempo medido tempo proxy,não funciona na escala tempo real
     instanteTempo=0
