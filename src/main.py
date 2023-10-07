@@ -4,17 +4,17 @@ sys.maxsize
 sys.setrecursionlimit(10**6)
 
 
-from clas.cliente import Cliente
-from clas.filme import Filme
-from clas.printDados import PrintDados
-from clas.pacote import Pacote
-from clas.resultado import Resultado
-from clas.manipulacaoArquivo import ManipulacaoArquivo
-from clas.arvore import Arvore
-from clas.no import No
-from clas.arvoreEspera import ArvoreEspera
-from clas.noEspera import NoEspera
-from clas.log import Log
+from classes.cliente import Cliente
+from classes.filme import Filme
+from classes.printDados import PrintDados
+from classes.pacote import Pacote
+from classes.resultado import Resultado
+from classes.manipulacaoArquivo import ManipulacaoArquivo
+from classes.arvore import Arvore
+from classes.no import No
+from classes.arvoreEspera import ArvoreEspera
+from classes.noEspera import NoEspera
+from classes.log import Log
 import time
 import threading
 import csv 

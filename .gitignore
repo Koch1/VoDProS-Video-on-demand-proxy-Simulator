@@ -1,8 +1,11 @@
 src/resultado9/
 src/algoritmo/__pycache__/
-src/clas/__pycache__/
+src/classes/__pycache__/
 baseLeitura15/
 baseLeitura16/
 env/
-resultados/
-
+resultados/resultados/*
+resultados/RAM/*
+resultados/logs/*
+resultados/logTempo/*
+src/Execucao.txt

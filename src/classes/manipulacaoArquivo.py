@@ -1,4 +1,4 @@
-from clas.cliente import Cliente
+from classes.cliente import Cliente
 
 class ManipulacaoArquivo:
     def __init__(self,arquivoLeitura,grafico,alg):

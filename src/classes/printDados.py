@@ -1,6 +1,6 @@
 
 import os
-from clas.resultado import Resultado
+from classes.resultado import Resultado
 
 class PrintDados:
     def memoriaRAM(self,memoria,clientes,tempo):
