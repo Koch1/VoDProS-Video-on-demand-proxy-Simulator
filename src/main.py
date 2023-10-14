@@ -29,7 +29,7 @@ def execucao(interfase,lock,res,arquivoLeitura,arquivoAgoritmo,classAlgoritmo,ar
     tempoInicialFuncao = time.time()
     
     #Impormt do algoritmo
-    impor=str("from algoritmo."+arquivoAgoritmo+" import "+classAlgoritmo)
+    impor=str("from algoritmos."+arquivoAgoritmo+" import "+classAlgoritmo)
     exec(impor,globals()) 
     #Iniciando class do algortimo
     comand=str("algoritmo="+classAlgoritmo+"("+argumento+")")

@@ -51,3 +51,9 @@ Finalizado Execução
 Opcao configuraçao:1Algoritmos:2
 Finalizado Execução 
 Opcao configuraçao:6Algoritmos:6
+Erro
+Opcao configuraçao:1Algoritmos:1
+list assignment index out of range
+Erro
+Opcao configuraçao:1Algoritmos:1
+list assignment index out of range
