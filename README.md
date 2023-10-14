@@ -52,5 +52,8 @@ ou
 
 ##### *OBS:* utilise o pypy3 como compilador por executar o codigo em menor tempo.
 
+## Videos
+
+VoDProS- primeira execução <https://youtu.be/QUK5pwUS6-o
 
 ###### Matheus Koch-
