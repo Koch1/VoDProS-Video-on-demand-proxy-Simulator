@@ -4,8 +4,5 @@ src/classes/__pycache__/
 baseLeitura15/
 baseLeitura16/
 env/
-resultados/resultados/*
-resultados/RAM/*
-resultados/logs/*
-resultados/logTempo/*
 src/Execucao.txt
+Testes/
